@@ -1,10 +1,12 @@
 # gimp-git
+
 Unofficial Arch Linux repository building the latest GIMP every now and then.
 
-Add this at the end of your `/etc/pacman.conf`:  
+Add this at the end of your `/etc/pacman.conf`:
+
 ```ini
 [gimp-git]
-Server = https://swyter.github.io/$repo/
+Server = https://khai-pacman-repo.github.io/$repo/
 SigLevel = Optional
 ```
 
